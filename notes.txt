@@ -1,0 +1,16 @@
+What is a base case in recursion? Why do we need one? Do we always need one? 
+
+It's the smaller version of a bigger problem that already has a predefined answer. Problems work down to the base case and can be solved from it. 
+
+A base case is needed or else a stack overflow will happen. 
+
+What exactly is a stack overflow? 
+
+When the memory for a function is exhausted in a stack. 
+
+Describe direct and indirect recursion 
+
+direct: the funciton call the same function: fun(){fun()}
+
+indirect: When funciton calls another funciton, which call th eoriginal funciton: 
+fun(){fun_new(){fun()}}
