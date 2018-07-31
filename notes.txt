@@ -24,3 +24,11 @@ delete - removes everyting of target resource
 connect - establishes tunnel to server identified by given uri 
 options- describes availible http methods for server 
 trace- performs a message loop-back along the path to the target resource. (used for development)
+
+What is the different between funciton hoisting and variable hoisting? 
+
+funciton are completely hoisted. 
+
+let and const are not hoisted 
+
+var is partially hoisted, mean that its declaration is hoisted but not its asseignment 
