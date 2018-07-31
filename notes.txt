@@ -32,3 +32,21 @@ funciton are completely hoisted.
 let and const are not hoisted 
 
 var is partially hoisted, mean that its declaration is hoisted but not its asseignment 
+
+what is a pure function? Impure function? 
+
+pure funcitons: return value depends solely on arguments. Predictable. No side effects.
+
+impure functions: may call database. side effects. may overwrite items you pass to them. 
+
+Why don't we want to modify our redux state?
+
+Helps make redux fast. Also, the reducer needs to be a pure function. 
+
+What is a state tree in the context of Redux? 
+
+The state of the store that holds all the information 
+
+Describe in detail what a redux reducer is. What makes it a pur funciton? 
+
+It takes an action and previous state and returns a new state. Its a pure funciton bc it doesn't modify the initial state. 
