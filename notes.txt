@@ -14,3 +14,13 @@ direct: the funciton call the same function: fun(){fun()}
 
 indirect: When funciton calls another funciton, which call th eoriginal funciton: 
 fun(){fun_new(){fun()}}
+
+what are the common HTTP methods? Whne are they used and what do they accomplish? 
+
+Get- retreve data 
+head- same as get, but tranfers status line and headers only 
+post- send data to server 
+delete - removes everyting of target resource 
+connect - establishes tunnel to server identified by given uri 
+options- describes availible http methods for server 
+trace- performs a message loop-back along the path to the target resource. (used for development)
